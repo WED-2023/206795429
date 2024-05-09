@@ -126,3 +126,14 @@ h1 {
 	height: 600px; /* Set the height to 600 pixels */
 	border: none;
   }
+
+  h4 {
+	font-size: 16px; 
+	grid-template-columns: 1fr auto 1fr;
+	gap: 1rem;
+	font-family: 'Lato', sans-serif;
+	color: #34495e;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+	text-align: center;
+
+  }
