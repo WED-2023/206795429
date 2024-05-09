@@ -36,10 +36,18 @@ li a:hover {
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
-p{
-	background-color: #b6bbc4;
-	padding: 1px 40px;
-}
+p {
+	text-align: justify; /* Justify text */
+	text-align-last: left; /* Align last line to the left */
+	padding: 1rem; /* Add padding to space the text from the edges */
+	background-color: #dee2e6; /* Change background color */
+	color: #495057; /* Change text color */
+	font-family: 'Lato', sans-serif; /* Font family */
+	font-size: 16px; /* Font size */
+	line-height: 1.6; /* Line height */
+	max-width: 800px;
+	margin: 0 auto;
+  }
 
 h1 {
 	text-align: center;
@@ -92,5 +100,29 @@ h1 {
   #photos {
 	text-align: center; /* Center align the content */
 	font-family: 'Lato', sans-serif;
+	color: #34495e;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+  }
 
+  .video-container {
+	text-align: center; /* Center align the content */
+  }
+  
+  .video-container iframe {
+	display: inline-block; /* Make the video display as an inline-block element */
+  }
+
+  .like-button {
+	text-align: center; /* Center align the content */
+  }
+
+  #like {
+	text-align: center; /* Center-align the content */
+  }
+
+  .zic-web iframe{
+	text-align: center; /* Center align the content */
+	width: 60%; /* Set the width to 100% of the container */
+	height: 600px; /* Set the height to 600 pixels */
+	border: none;
   }
