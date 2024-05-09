@@ -1,38 +1,96 @@
 #menu
 {
 	position: fixed;
+	top: 0; 
+	left: 0;
 	width: 100%;
 	height: 35px;
-	background: rgb(53, 98, 220);
+	background: #9fabd9;
+	display: flex;
+	justify-content: space-around;
 	list-style-type: none;
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
 }	
 
 li {
-	float: left;
-	width: 150px;
+	width: calc(100% / 7); /*fit to the 7 categories*/
 }
 
 li a {
-	justify-content: center; 
-	display: block;
-	color: white;
-	text-align: center;
-	padding:8px 16px;
+	color: #34495e;
 	text-decoration: none;
-	border: 1px solid rgb(136, 165, 228);
-	
+	padding:8px 16px;
+	border: 2px solid transparent;
+	display: block;
+	text-align: center;
+	transition: all 0.3s;
 }
 
 li a:hover {
-	background-color: #649dec;
-	width: 70px;
-	height: 35px;
-	padding: 1px 40px;
+	background-color: #5c627b;
+	color: white;
+	transform: scale(1.05); 
+	border-color: #9fabd9;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
 }
 
 p{
-	background-color: #eff0f2;
+	background-color: #b6bbc4;
 	padding: 1px 40px;
-	border: 1px solid rgb(136, 165, 228);
 }
+
+h1 {
+	text-align: center;
+	margin-top: 50px; /* Adjust the margin-top as needed */
+	color: #34495e; /* Text color */
+	font-family: 'Lato', sans-serif; /* Font family */
+	font-weight: bold; /* Font weight */
+	font-size: 30px; /* Font size */
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+  }
+  
+  h3 {
+	font-size: 36px; 
+	display: grid;
+	grid-template-columns: 1fr auto 1fr;
+	gap: 1rem;
+	font-family: 'Lato', sans-serif;
+	color: #34495e;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+
+  }
+  
+  h3::before,
+  h3::after {
+	content: "";
+	border-top: 0.1rem double #34495e;
+	align-self: center;
+	height: 2px;
+	background-color: #9fabd9;
+  }
+
+  #qrcoder {
+	text-align: center; /* Center align the content */
+  }
+  
+  #qrcoder img {
+	display: inline-block; /* Make the image display as an inline-block element */
+  }
+
+
+  #contact {
+	text-align: center; /* Center-align the content */
+  }
+  
+  #contact h3 {
+	font-size: 36px; /* Adjust the font size as needed */
+	margin-bottom: 20px; /* Add some spacing below the heading */
+  }
+
+  #photos {
+	text-align: center; /* Center align the content */
+	font-family: 'Lato', sans-serif;
+
+  }
