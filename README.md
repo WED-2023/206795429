@@ -5,6 +5,8 @@
 student id - 206795429
 
 I have decided to create a website to honor the memory of my father who passed away last December 2024.
+**Website logo** - the website logo contains the first letter of my fathers first name - N (Nissim), a candle, a bible book and a star of david.
+All these symbols characterize him as a believing Jew.
 
 The website contains the following categories:
 
