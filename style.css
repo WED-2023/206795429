@@ -1,13 +1,18 @@
+body {
+    background-color: #f5f4e3;
+}
+
 #menu
 {
 	position: fixed;
 	top: 0; 
-	left: 0;
-	width: 100%;
-	height: 35px;
+	left: 60px;
+	width: calc(100% - 60px);
+	height: 60px;
 	background: #9fabd9;
 	display: flex;
 	justify-content: space-around;
+	align-items: center;
 	list-style-type: none;
 	font-family: 'Lato', sans-serif;
 	font-weight: bold;
@@ -153,3 +158,14 @@ h1 {
 	text-decoration: none;
 	background-color: transparent;
 }
+
+#logo {
+	position: fixed; /* Position the logo absolutely */
+	top: 0; /* Align to the top */
+	left: 0; /* Align to the left */
+  }
+
+  #logo img {
+	width: 60px; /* Adjust width as needed */
+	height: 60px; /* Adjust height as needed */
+  }
