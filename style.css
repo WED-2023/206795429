@@ -1,6 +1,13 @@
 /*--------------------------body style-----------------------------------------------------------------*/
 body {
     background-color: #f5f4e3;
+	/* canges added !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+	display: flex; /* Added to center content */
+    flex-direction: column; /* Added to arrange items in a column */
+    /* align-items: center; Added to center items horizontally */
+    justify-content: center; /* Added to center items vertically */
+    min-height: 100vh; /* Added to ensure the body takes the full height of the viewport */
+    margin: 0; /* Added to remove default margin */
 }
 
 /*--------------------------menu style-----------------------------------------------------------------*/
@@ -58,6 +65,10 @@ p {
 	line-height: 1.6; /* Line height */
 	max-width: 800px;
 	margin: 0 auto;
+
+	/* canges added !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+	margin: 1rem auto; /* Centering paragraph with auto margins */
+
   }
 
 /*--------------------------h1 style-----------------------------------------------------------------*/
@@ -81,6 +92,10 @@ h3 {
 	font-family: 'Lato', sans-serif;
 	color: #34495e;
 	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Text shadow */
+
+	/* canges added !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+	align-items: center; /* Centering text */
+    justify-content: center; /* Centering text */
 }
   
 h3::before,
@@ -92,6 +107,8 @@ h3::after {
 	background-color: #9fabd9;
 	width: 100%;
 }
+
+
 
 /*--------------------------qrcoder style-----------------------------------------------------------------*/
 
